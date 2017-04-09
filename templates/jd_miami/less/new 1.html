@@ -1,0 +1,33 @@
+.abt-row p{
+  display: inline-block;
+  margin: 1em;
+  text-transform: uppercase;
+  padding: 1em 1.5em;
+  background: none;
+  color:#000000;  
+  font-weight: bold;
+  position: relative;
+  transition:color 0.3s ease;
+  
+  &:hover {
+	  color:#fff;
+	}
+}
+
+p::after {
+  position: absolute;
+  content: '';
+  top:0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background-color: #bf4d4d;
+  transform-origin:left;
+  transition:width 0.3s ease;
+  z-index:-1;
+}
+
+p:hover::after {
+  width: 100%;
+}
+
