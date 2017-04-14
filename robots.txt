@@ -30,3 +30,4 @@ Disallow: /modules/
 Disallow: /plugins/
 Disallow: /tmp/
 
+Sitemap: http://www.ainur.owlstudio.kz.
