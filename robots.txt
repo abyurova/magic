@@ -30,4 +30,4 @@ Disallow: /modules/
 Disallow: /plugins/
 Disallow: /tmp/
 
-Sitemap: http://www.ainur.owlstudio.kz.
+Sitemap: http://www.magic-box.kz
